@@ -1,0 +1,40 @@
+a img {
+    border-style:none;
+}
+
+#mainvis {
+    width: 500px;
+
+    margin: 0px auto;
+    padding: 0px;
+    height: 460px;
+}
+
+#main_imgs {
+    width: 500px;
+    height: 460px;
+}
+
+#main_imgs img {
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+}
+
+#mainvis #thumb {
+    position: relative;
+    top: -50px;
+    left: 300px;
+}
+
+#thumb img {
+    padding-right: 3px;
+    cursor: pointer;
+}
+
+.opacity {
+    opacity: 0.3;
+    filter: alpha( opacity=30 );
+    -ms-filter: "alpha( opacity=30 )";
+}
